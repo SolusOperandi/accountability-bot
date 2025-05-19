@@ -1,10 +1,13 @@
 discord_token: "YOUR_DISCORD_BOT_TOKEN"
 openai_api_key: "YOUR_OPENAI_KEY"
 elevenlabs_api_key: "YOUR_ELEVENLABS_KEY"
+voice_id: ""
+voice_escalation_level: ""
+timezone: "UTC"
 reminder_time: "07:00"         # 24h format, local time
 escalation_interval: 10        # Minutes between reminders
 compliance_phrase: "I'm up"
-channel_id: 1234567890         # Discord channel or DM ID
+user_id: 1234567890         # Discord channel or DM ID
 max_escalation: 4
 tts_enabled: true
 audio_output: "local"
